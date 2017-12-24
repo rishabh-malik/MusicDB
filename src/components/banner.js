@@ -4,9 +4,9 @@ const Banner=()=>{
     return(
         <div className="banner">
             <div className="main_cover">
-            <div className="logo"></div>
+            <div className="logo">MusicDB</div>
             </div>
-            <span></span>
+            <span className="span"></span>
         </div>
     )
 }
