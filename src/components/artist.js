@@ -31,7 +31,15 @@ class Artist extends Component{
         return(
             <div>
                 <Header/>
-
+                <div className="artist_bio">
+                <div className="avatar">
+                <span style={{background:`url('/images/covers/${this.state.artist.cover}.jpg') no-repeat`}}></span>
+                </div>
+                <div className="bio">
+                <h3>{this.state.artist.name}</h3>
+                <div className="bio-text">{this.state.artist.bio}</div>
+                </div>
+                </div>
             </div>
         )
     }    
